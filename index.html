@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Tjänster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>IT Tjänster AB</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#services">Tjänster</a></li>
+                <li><a href="#about">Om Oss</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Välkommen till IT Tjänster AB</h2>
+        <p>Vi erbjuder professionella IT-tjänster för företag och privatpersoner. Vår expertis inkluderar allt från IT-support till molntjänster och cybersäkerhet.</p>
+        <button onclick="learnMore()">Läs Mer</button>
+    </section>
+
+    <section id="services">
+        <h2>Våra Tjänster</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <h3>IT-support</h3>
+                <p>Få snabb och pålitlig IT-support för alla dina behov.</p>
+            </div>
+            <div class="service-box">
+                <h3>Molntjänster</h3>
+                <p>Flytta ditt företag till molnet med våra skalbara lösningar.</p>
+            </div>
+            <div class="service-box">
+                <h3>Cybersäkerhet</h3>
+                <p>Skydda dina data och system mot cyberhot.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Om Oss</h2>
+        <p>IT Tjänster AB har varit verksam sedan 2010 och vi brinner för att hjälpa våra kunder att hitta rätt IT-lösningar. Vi har ett erfaret team som kan hjälpa till med allt från mindre IT-frågor till större infrastrukturprojekt.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 IT Tjänster AB. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
