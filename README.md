@@ -1,1 +1,1 @@
-Min hemsida hehe
+Hemsida Data technology stack
